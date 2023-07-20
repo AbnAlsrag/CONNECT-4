@@ -10,9 +10,6 @@ VERTICAL = 1
 GRID_SIZE = (7, 6)
 WIN_NUMBER = 4
 
-def two_to_one_d(coords):
-    return (coords[0] * GRID_SIZE[0]) + coords[1]
-
 screen = pygame.display.set_mode((600, 600), pygame.RESIZABLE)
 clock = pygame.time.Clock()
 running = True
